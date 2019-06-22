@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "Tracer",
+        "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/tracer/hero-select-portrait.png",
+        "guessed": false
+    },
+    {
+        "id": 2,
+        "name": "Orisa",
+        "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/orisa/hero-select-portrait.png",
+        "guessed": false
+    }
+]
