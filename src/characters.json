@@ -10,5 +10,65 @@
         "name": "Orisa",
         "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/orisa/hero-select-portrait.png",
         "guessed": false
+    },
+    {
+        "id": 3,
+        "name": "Ana",
+        "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/ana/hero-select-portrait.png",
+        "guessed": false
+    },
+    {
+        "id": 4,
+        "name": "Roadhog",
+        "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/roadhog/hero-select-portrait.png",
+        "guessed": false
+    },
+    {
+        "id": 5,
+        "name": "McCree",
+        "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/mccree/hero-select-portrait.png",
+        "guessed": false
+    },
+    {
+        "id": 6,
+        "name": "Doomfist",
+        "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/doomfist/hero-select-portrait.png",
+        "guessed": false
+    },
+    {
+        "id": 7,
+        "name": "Wrecking Ball",
+        "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/wrecking-ball/hero-select-portrait.png",
+        "guessed": false
+    },
+    {
+        "id": 8,
+        "name": "Junkrat",
+        "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/junkrat/hero-select-portrait.png",
+        "guessed": false
+    },
+    {
+        "id": 9,
+        "name": "Zarya",
+        "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/zarya/hero-select-portrait.png",
+        "guessed": false
+    },
+    {
+        "id": 10,
+        "name": "Reaper",
+        "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/reaper/hero-select-portrait.png",
+        "guessed": false
+    },
+    {
+        "id": 11,
+        "name": "Mercy",
+        "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/mercy/hero-select-portrait.png",
+        "guessed": false
+    },
+    {
+        "id": 12,
+        "name": "Zenyatta",
+        "image": "https://d1u1mce87gyfbn.cloudfront.net/hero/zenyatta/hero-select-portrait.png",
+        "guessed": false
     }
 ]
