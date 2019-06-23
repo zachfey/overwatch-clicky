@@ -16,15 +16,17 @@ class App extends Component {
     console.log(this.state.characters)
     console.log(id)
     console.log('now change....')
-    let characters = this.state.characters.forEach(character => {
+    let characters = this.state.characters.map(character => {
       if (character.id === id) {
         character.guessed = true;
         console.log(character)
       }
+      return character
     });
-    // console.log(characters)
+    console.log(characters)
     this.setState({ characters });
   };
+
   render() {
 
     return (
@@ -33,7 +35,7 @@ class App extends Component {
           Clicky Game
       </header>
         <Character
-          character={characters}
+          characters={characters}
           guessCharacter={this.guessCharacter}
         />
       </div>

@@ -6,7 +6,7 @@ function Character(props) {
 
         <div className="card" >
             <div className="card-img-top img-container">
-                {props.character.map(item => (
+                {props.characters.map(item => (
                     <img alt={item.name} src={item.image} onClick={() => props.guessCharacter(item.id)} data-guessed ={item.guessed}/>
                 ))}
 
