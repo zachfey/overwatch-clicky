@@ -40,8 +40,8 @@ class App extends Component {
           score.currentScore = this.state.score.currentScore + 1
           console.log(score.currentScore)
 
-          console.log('high schore:  ' + this.state.score.highScore)
-          if (this.state.currentScore > this.state.highScore) {
+          console.log('high score:  ' + this.state.score.highScore)
+          if (score.currentScore > this.state.score.highScore) {
             console.log('updating high score')
             score.highScore = score.currentScore
 
