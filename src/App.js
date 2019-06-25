@@ -32,7 +32,12 @@ class App extends Component {
           console.log('already guessed!')
           score.currentScore = 0;
           score.highScore = this.state.score.highScore;
-          //todo make all character guesses false
+          characters = characters.map(character => {
+            character.guessed = false
+          })
+          this.setState({ score });
+          this.setState({ characters })
+          break
 
         } else {
           console.log('not guessed yet!')
@@ -55,18 +60,6 @@ class App extends Component {
         this.setState({ characters })
       }
     }
-
-    // const characters = this.state.characters.map(character => {
-    //   if (character.id === id) {
-    //     character.guessed = true;
-
-    //   }
-
-    //   console.log(character)
-    //   return character
-    // });
-    // // console.log(characters)
-    // this.setState({characters}, {score}, {highScore});
   };
 
   render() {
