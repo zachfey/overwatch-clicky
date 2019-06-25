@@ -24,7 +24,7 @@ class App extends Component {
     // console.log('now change....')
     // console.log(this.state.characters)
     let characters = this.state.characters;
-  
+
     for (let i in characters) {
       const character = characters[i]
       console.log(character)
@@ -84,18 +84,25 @@ class App extends Component {
     // console.log(score)
     console.log(characters)
     return (
-      <div className="App">
-        <header className="App-header">
-          Clicky Game
-      </header>
+      <div className='Container'>
+        <div className="App jumbotron">
+          <header className="App-header">
+            <h1>Overwatch Clicky Game</h1>
+            <h3>Click characters to grow your score, but don't click the same character twice!</h3>
+          </header>
+        </div>
+
         <Score
           score={score}
         />
-        <Character
-          characters={characters}
-          guessCharacter={this.guessCharacter}
-          shuffleArray = {this.shuffleArray}
-        />
+
+        <div className='row'>
+          <Character
+            characters={characters}
+            guessCharacter={this.guessCharacter}
+            shuffleArray={this.shuffleArray}
+          />
+        </div>
       </div>
     );
   }

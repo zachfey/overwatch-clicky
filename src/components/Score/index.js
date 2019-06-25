@@ -3,9 +3,9 @@ import "./style.css";
 
 function Score(props) {
     return (
-        <div>
-            <p>Score: {props.score.currentScore}</p>
-            <p >High Score: {props.score.highScore}</p>
+        <div className = 'container'>
+            <h2>Score: {props.score.currentScore}</h2>
+            <h2>High Score: {props.score.highScore}</h2>
         </div>
     );
 }
