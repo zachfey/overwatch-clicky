@@ -6,8 +6,9 @@ function Character(props) {
 
         <div className="card" >
             <div className="card-img-top img-container">
-                {props.characters.map(item => (
-                    <img alt={item.name} src={item.image} onClick={() => props.guessCharacter(item.id)} data-guessed ={item.guessed}/>
+
+                {props.shuffleArray(props.characters).map(item => (
+                    <img alt={item.name} src={item.image} onClick={(event) => props.guessCharacter(item.id, event)} data-guessed ={item.guessed}/>
                 ))}
 
             </div>
