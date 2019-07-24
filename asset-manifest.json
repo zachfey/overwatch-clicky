@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/overwatch-clicky/static/css/main.8212b4d9.chunk.css",
+    "main.js": "/overwatch-clicky/static/js/main.5e4b69dd.chunk.js",
+    "main.js.map": "/overwatch-clicky/static/js/main.5e4b69dd.chunk.js.map",
+    "runtime~main.js": "/overwatch-clicky/static/js/runtime~main.6533900c.js",
+    "runtime~main.js.map": "/overwatch-clicky/static/js/runtime~main.6533900c.js.map",
+    "static/js/2.6fcf23cc.chunk.js": "/overwatch-clicky/static/js/2.6fcf23cc.chunk.js",
+    "static/js/2.6fcf23cc.chunk.js.map": "/overwatch-clicky/static/js/2.6fcf23cc.chunk.js.map",
+    "index.html": "/overwatch-clicky/index.html",
+    "precache-manifest.adac47b8da75b0768458ed8755f036c4.js": "/overwatch-clicky/precache-manifest.adac47b8da75b0768458ed8755f036c4.js",
+    "service-worker.js": "/overwatch-clicky/service-worker.js",
+    "static/css/main.8212b4d9.chunk.css.map": "/overwatch-clicky/static/css/main.8212b4d9.chunk.css.map"
+  }
+}
